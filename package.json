@@ -1,7 +1,7 @@
 {
-  "name": "react-sticky",
+  "name": "react-sticky-modified",
   "version": "5.0.5",
-  "description": "Sticky component for React",
+  "description": "Sticky component for React (modified)",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib dist",
@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/captivationsoftware/react-sticky"
+    "url": "https://github.com/paraboom/react-sticky"
   },
   "keywords": [
     "react-component",
     "React",
     "Sticky"
   ],
-  "author": "Captivation Software",
+  "author": "Ivan Shornikov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/captivationsoftware/react-sticky/issues"
+    "url": "https://github.com/paraboom/react-sticky/issues"
   },
-  "homepage": "https://github.com/captivationsoftware/react-sticky",
+  "homepage": "https://github.com/paraboom/react-sticky",
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0",
     "react-dom": "^0.14.0 || ^15.0.0"
