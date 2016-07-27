@@ -44,10 +44,6 @@ export default class Sticky extends React.Component {
     this.recomputeState();
   }
 
-  componentWillReceiveProps() {
-    this.recomputeState();
-  }
-
   componentWillUnmount() {
     this.off(['resize', 'scroll', 'touchstart', 'touchmove', 'touchend', 'pageshow', 'load'], this.recomputeState);
     this.channel.unsubscribe(this.updateContext);
