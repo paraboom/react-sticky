@@ -1,6 +1,6 @@
 {
   "name": "react-sticky-modified",
-  "version": "5.0.5",
+  "version": "5.1.0",
   "description": "Sticky component for React (modified)",
   "main": "lib/index.js",
   "scripts": {
@@ -46,5 +46,8 @@
     "react-dom": "^0.14.0 || ^15.0.0",
     "rimraf": "^2.5.2",
     "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
